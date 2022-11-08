@@ -7,13 +7,13 @@ const HeroBanner = () => {
   return (
     <Box
       sx={{
-        mt: { lg: "212px", xs: "70px" },
+        mt: { lg: "180px", xs: "70px" },
         my: { sm: "50px" },
       }}
       position="relative"
       p="20px"
     >
-      <Typography color="#FF2625" fontWeight="600" fontSize="26px">
+      <Typography color="#E4F9F5" fontWeight="600" fontSize="26px">
         Walk-in Fitness
       </Typography>
       <Typography
@@ -26,10 +26,11 @@ const HeroBanner = () => {
         }}
         mb="23px"
         mt="30px"
+        color="#30E3CA"
       >
         You are condemned <br /> To REPEAT
       </Typography>
-      <Typography fontSize="22px" lineHieght="35px" mb={4}>
+      <Typography fontSize="22px" lineHieght="35px" mb={4} color="#E4F9F5">
         Follow for more
       </Typography>
 
@@ -38,7 +39,7 @@ const HeroBanner = () => {
         color="error"
         href="#excercise"
         sx={{
-          backgroundColor: "#ff2625",
+          backgroundColor: "#11999E",
           padding: "10px",
         }}
       >
@@ -46,7 +47,7 @@ const HeroBanner = () => {
       </Button>
       <Typography
         fontWeight={600}
-        color="#ff2625"
+        color="#E4F9F5"
         sx={{
           opacity: 0.1,
           display: { lg: "block", xs: "none" },

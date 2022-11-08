@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
 
-import Logo from "../assets/images/Logo.png";
+// import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/images/image-removebg-preview (1).png";
 
 const Navbar = () => {
   return (
@@ -10,8 +11,8 @@ const Navbar = () => {
       direction="row"
       justifyContent="space-around"
       sx={{
-        gap: { sm: "122px", xs: "40px" },
-        mt: { sm: "32px", xs: "20px" },
+        gap: { sm: "100px", xs: "40px" },
+        mt: { sm: "30px", xs: "20px" },
         justifyContent: "none",
       }}
     >
@@ -20,8 +21,8 @@ const Navbar = () => {
           src={Logo}
           alt=""
           style={{
-            width: "48px",
-            height: "48px",
+            width: "100px",
+            height: "80px",
             margin: "0 20px",
           }}
         />
@@ -31,8 +32,8 @@ const Navbar = () => {
           to="/"
           style={{
             textDecoration: "none",
-            color: "#3A1212",
-            borderBottom: "3px solid #FF2625",
+            color: "#30E3CA",
+            borderBottom: "3px solid #30E3CA",
           }}
         >
           Home
@@ -41,7 +42,7 @@ const Navbar = () => {
           href="#exercises"
           style={{
             textDecoration: "none",
-            color: "#3A1212",
+            color: "#30E3CA",
           }}
         >
           Exercise
