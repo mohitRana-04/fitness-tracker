@@ -51,6 +51,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         sx={{ fontSize: { lg: "44px", xs: "30px" } }}
         mb="49px"
         textAlign="center"
+        color="#30E3CA"
       >
         Awesome Exercises You <br /> Should Know
       </Typography>
